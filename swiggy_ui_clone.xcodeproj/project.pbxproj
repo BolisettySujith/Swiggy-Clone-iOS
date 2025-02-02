@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		736B441D2D1AB136005B5C03 /* swiggy_ui_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B441C2D1AB136005B5C03 /* swiggy_ui_cloneApp.swift */; };
+		736B441F2D1AB136005B5C03 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B441E2D1AB136005B5C03 /* HomePageView.swift */; };
+		736B44212D1AB137005B5C03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736B44202D1AB137005B5C03 /* Assets.xcassets */; };
+		736B44242D1AB137005B5C03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 736B44232D1AB137005B5C03 /* Preview Assets.xcassets */; };
+		736B442E2D1AB138005B5C03 /* swiggy_ui_cloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B442D2D1AB138005B5C03 /* swiggy_ui_cloneTests.swift */; };
+		736B44382D1AB138005B5C03 /* swiggy_ui_cloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44372D1AB138005B5C03 /* swiggy_ui_cloneUITests.swift */; };
+		736B443A2D1AB138005B5C03 /* swiggy_ui_cloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44392D1AB138005B5C03 /* swiggy_ui_cloneUITestsLaunchTests.swift */; };
+		736B44482D1B0B33005B5C03 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44472D1B0B33005B5C03 /* SearchBar.swift */; };
+		736B444A2D1B121F005B5C03 /* FoodItemsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44492D1B121F005B5C03 /* FoodItemsGrid.swift */; };
+		736B444C2D1B153B005B5C03 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B444B2D1B153B005B5C03 /* AppConstants.swift */; };
+		736B444E2D1B1652005B5C03 /* FoodItemsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B444D2D1B1652005B5C03 /* FoodItemsSection.swift */; };
+		736B44512D1B1B0C005B5C03 /* RestaurantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44502D1B1B0C005B5C03 /* RestaurantModel.swift */; };
+		736B44532D1B1C58005B5C03 /* TopRestaurantsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44522D1B1C58005B5C03 /* TopRestaurantsSection.swift */; };
+		736B44552D1B1CB9005B5C03 /* TopRestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44542D1B1CB9005B5C03 /* TopRestaurantsList.swift */; };
+		736B44572D1B1D2A005B5C03 /* NetworkImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44562D1B1D2A005B5C03 /* NetworkImage.swift */; };
+		736B44592D1B1EED005B5C03 /* TopRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44582D1B1EED005B5C03 /* TopRestaurantView.swift */; };
+		736B445B2D1B2602005B5C03 /* BannersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B445A2D1B2602005B5C03 /* BannersListView.swift */; };
+		736B445F2D1B2EBC005B5C03 /* ExploreRestaurantsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B445E2D1B2EBC005B5C03 /* ExploreRestaurantsSection.swift */; };
+		736B44612D1B2F37005B5C03 /* ExploreRestaurantsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44602D1B2F37005B5C03 /* ExploreRestaurantsList.swift */; };
+		736B44632D1B2F75005B5C03 /* ExploreRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44622D1B2F75005B5C03 /* ExploreRestaurantView.swift */; };
+		736B44652D1B3340005B5C03 /* FilterChipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44642D1B3340005B5C03 /* FilterChipsView.swift */; };
+		736B44672D1B43AE005B5C03 /* AppBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44662D1B43AE005B5C03 /* AppBarView.swift */; };
+		736B44692D1B50C5005B5C03 /* RestaurantDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44682D1B50C5005B5C03 /* RestaurantDetailsView.swift */; };
+		736B446C2D1BA187005B5C03 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B446B2D1BA187005B5C03 /* HexColor.swift */; };
+		736B446E2D1BB003005B5C03 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B446D2D1BB003005B5C03 /* HomeHeaderView.swift */; };
+		736B44702D1BBDF3005B5C03 /* QuickPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B446F2D1BBDF3005B5C03 /* QuickPicksView.swift */; };
+		736B44762D1BCCA1005B5C03 /* BottomRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736B44752D1BCCA1005B5C03 /* BottomRoundedShape.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		736B442A2D1AB138005B5C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736B44112D1AB136005B5C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736B44182D1AB136005B5C03;
+			remoteInfo = swiggy_ui_clone;
+		};
+		736B44342D1AB138005B5C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 736B44112D1AB136005B5C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 736B44182D1AB136005B5C03;
+			remoteInfo = swiggy_ui_clone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		736B44192D1AB136005B5C03 /* swiggy_ui_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiggy_ui_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		736B441C2D1AB136005B5C03 /* swiggy_ui_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiggy_ui_cloneApp.swift; sourceTree = "<group>"; };
+		736B441E2D1AB136005B5C03 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		736B44202D1AB137005B5C03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		736B44232D1AB137005B5C03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		736B44292D1AB138005B5C03 /* swiggy_ui_cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiggy_ui_cloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		736B442D2D1AB138005B5C03 /* swiggy_ui_cloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiggy_ui_cloneTests.swift; sourceTree = "<group>"; };
+		736B44332D1AB138005B5C03 /* swiggy_ui_cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiggy_ui_cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		736B44372D1AB138005B5C03 /* swiggy_ui_cloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiggy_ui_cloneUITests.swift; sourceTree = "<group>"; };
+		736B44392D1AB138005B5C03 /* swiggy_ui_cloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiggy_ui_cloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		736B44472D1B0B33005B5C03 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		736B44492D1B121F005B5C03 /* FoodItemsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemsGrid.swift; sourceTree = "<group>"; };
+		736B444B2D1B153B005B5C03 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		736B444D2D1B1652005B5C03 /* FoodItemsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemsSection.swift; sourceTree = "<group>"; };
+		736B44502D1B1B0C005B5C03 /* RestaurantModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantModel.swift; sourceTree = "<group>"; };
+		736B44522D1B1C58005B5C03 /* TopRestaurantsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRestaurantsSection.swift; sourceTree = "<group>"; };
+		736B44542D1B1CB9005B5C03 /* TopRestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRestaurantsList.swift; sourceTree = "<group>"; };
+		736B44562D1B1D2A005B5C03 /* NetworkImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkImage.swift; sourceTree = "<group>"; };
+		736B44582D1B1EED005B5C03 /* TopRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRestaurantView.swift; sourceTree = "<group>"; };
+		736B445A2D1B2602005B5C03 /* BannersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannersListView.swift; sourceTree = "<group>"; };
+		736B445E2D1B2EBC005B5C03 /* ExploreRestaurantsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRestaurantsSection.swift; sourceTree = "<group>"; };
+		736B44602D1B2F37005B5C03 /* ExploreRestaurantsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRestaurantsList.swift; sourceTree = "<group>"; };
+		736B44622D1B2F75005B5C03 /* ExploreRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRestaurantView.swift; sourceTree = "<group>"; };
+		736B44642D1B3340005B5C03 /* FilterChipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChipsView.swift; sourceTree = "<group>"; };
+		736B44662D1B43AE005B5C03 /* AppBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppBarView.swift; sourceTree = "<group>"; };
+		736B44682D1B50C5005B5C03 /* RestaurantDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsView.swift; sourceTree = "<group>"; };
+		736B446B2D1BA187005B5C03 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		736B446D2D1BB003005B5C03 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		736B446F2D1BBDF3005B5C03 /* QuickPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickPicksView.swift; sourceTree = "<group>"; };
+		736B44752D1BCCA1005B5C03 /* BottomRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRoundedShape.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		736B44162D1AB136005B5C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736B44262D1AB138005B5C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736B44302D1AB138005B5C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		736B44102D1AB136005B5C03 = {
+			isa = PBXGroup;
+			children = (
+				736B441B2D1AB136005B5C03 /* swiggy_ui_clone */,
+				736B442C2D1AB138005B5C03 /* swiggy_ui_cloneTests */,
+				736B44362D1AB138005B5C03 /* swiggy_ui_cloneUITests */,
+				736B441A2D1AB136005B5C03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		736B441A2D1AB136005B5C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				736B44192D1AB136005B5C03 /* swiggy_ui_clone.app */,
+				736B44292D1AB138005B5C03 /* swiggy_ui_cloneTests.xctest */,
+				736B44332D1AB138005B5C03 /* swiggy_ui_cloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		736B441B2D1AB136005B5C03 /* swiggy_ui_clone */ = {
+			isa = PBXGroup;
+			children = (
+				736B445C2D1B2E81005B5C03 /* Views */,
+				736B444F2D1B1AF5005B5C03 /* Models */,
+				736B441C2D1AB136005B5C03 /* swiggy_ui_cloneApp.swift */,
+				736B446A2D1BA16B005B5C03 /* Utils */,
+				736B44202D1AB137005B5C03 /* Assets.xcassets */,
+				736B44222D1AB137005B5C03 /* Preview Content */,
+			);
+			path = swiggy_ui_clone;
+			sourceTree = "<group>";
+		};
+		736B44222D1AB137005B5C03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				736B44232D1AB137005B5C03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		736B442C2D1AB138005B5C03 /* swiggy_ui_cloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				736B442D2D1AB138005B5C03 /* swiggy_ui_cloneTests.swift */,
+			);
+			path = swiggy_ui_cloneTests;
+			sourceTree = "<group>";
+		};
+		736B44362D1AB138005B5C03 /* swiggy_ui_cloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				736B44372D1AB138005B5C03 /* swiggy_ui_cloneUITests.swift */,
+				736B44392D1AB138005B5C03 /* swiggy_ui_cloneUITestsLaunchTests.swift */,
+			);
+			path = swiggy_ui_cloneUITests;
+			sourceTree = "<group>";
+		};
+		736B444F2D1B1AF5005B5C03 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				736B44502D1B1B0C005B5C03 /* RestaurantModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		736B445C2D1B2E81005B5C03 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				736B44742D1BC9BD005B5C03 /* HomeSections */,
+				736B44732D1BC9A4005B5C03 /* RestaurantsDetails */,
+				736B44722D1BC994005B5C03 /* Banners */,
+				736B44712D1BC956005B5C03 /* TopRestaurants */,
+				736B445D2D1B2E95005B5C03 /* ExploreRestaurants */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		736B445D2D1B2E95005B5C03 /* ExploreRestaurants */ = {
+			isa = PBXGroup;
+			children = (
+				736B445E2D1B2EBC005B5C03 /* ExploreRestaurantsSection.swift */,
+				736B44602D1B2F37005B5C03 /* ExploreRestaurantsList.swift */,
+				736B44622D1B2F75005B5C03 /* ExploreRestaurantView.swift */,
+			);
+			path = ExploreRestaurants;
+			sourceTree = "<group>";
+		};
+		736B446A2D1BA16B005B5C03 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				736B444B2D1B153B005B5C03 /* AppConstants.swift */,
+				736B44752D1BCCA1005B5C03 /* BottomRoundedShape.swift */,
+				736B44562D1B1D2A005B5C03 /* NetworkImage.swift */,
+				736B446B2D1BA187005B5C03 /* HexColor.swift */,
+				736B44472D1B0B33005B5C03 /* SearchBar.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		736B44712D1BC956005B5C03 /* TopRestaurants */ = {
+			isa = PBXGroup;
+			children = (
+				736B44522D1B1C58005B5C03 /* TopRestaurantsSection.swift */,
+				736B44542D1B1CB9005B5C03 /* TopRestaurantsList.swift */,
+				736B44582D1B1EED005B5C03 /* TopRestaurantView.swift */,
+			);
+			path = TopRestaurants;
+			sourceTree = "<group>";
+		};
+		736B44722D1BC994005B5C03 /* Banners */ = {
+			isa = PBXGroup;
+			children = (
+				736B445A2D1B2602005B5C03 /* BannersListView.swift */,
+			);
+			path = Banners;
+			sourceTree = "<group>";
+		};
+		736B44732D1BC9A4005B5C03 /* RestaurantsDetails */ = {
+			isa = PBXGroup;
+			children = (
+				736B44682D1B50C5005B5C03 /* RestaurantDetailsView.swift */,
+			);
+			path = RestaurantsDetails;
+			sourceTree = "<group>";
+		};
+		736B44742D1BC9BD005B5C03 /* HomeSections */ = {
+			isa = PBXGroup;
+			children = (
+				736B44662D1B43AE005B5C03 /* AppBarView.swift */,
+				736B441E2D1AB136005B5C03 /* HomePageView.swift */,
+				736B446D2D1BB003005B5C03 /* HomeHeaderView.swift */,
+				736B444D2D1B1652005B5C03 /* FoodItemsSection.swift */,
+				736B44492D1B121F005B5C03 /* FoodItemsGrid.swift */,
+				736B44642D1B3340005B5C03 /* FilterChipsView.swift */,
+				736B446F2D1BBDF3005B5C03 /* QuickPicksView.swift */,
+			);
+			path = HomeSections;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		736B44182D1AB136005B5C03 /* swiggy_ui_clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736B443D2D1AB138005B5C03 /* Build configuration list for PBXNativeTarget "swiggy_ui_clone" */;
+			buildPhases = (
+				736B44152D1AB136005B5C03 /* Sources */,
+				736B44162D1AB136005B5C03 /* Frameworks */,
+				736B44172D1AB136005B5C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiggy_ui_clone;
+			productName = swiggy_ui_clone;
+			productReference = 736B44192D1AB136005B5C03 /* swiggy_ui_clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		736B44282D1AB138005B5C03 /* swiggy_ui_cloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736B44402D1AB138005B5C03 /* Build configuration list for PBXNativeTarget "swiggy_ui_cloneTests" */;
+			buildPhases = (
+				736B44252D1AB138005B5C03 /* Sources */,
+				736B44262D1AB138005B5C03 /* Frameworks */,
+				736B44272D1AB138005B5C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736B442B2D1AB138005B5C03 /* PBXTargetDependency */,
+			);
+			name = swiggy_ui_cloneTests;
+			productName = swiggy_ui_cloneTests;
+			productReference = 736B44292D1AB138005B5C03 /* swiggy_ui_cloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		736B44322D1AB138005B5C03 /* swiggy_ui_cloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 736B44432D1AB138005B5C03 /* Build configuration list for PBXNativeTarget "swiggy_ui_cloneUITests" */;
+			buildPhases = (
+				736B442F2D1AB138005B5C03 /* Sources */,
+				736B44302D1AB138005B5C03 /* Frameworks */,
+				736B44312D1AB138005B5C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				736B44352D1AB138005B5C03 /* PBXTargetDependency */,
+			);
+			name = swiggy_ui_cloneUITests;
+			productName = swiggy_ui_cloneUITests;
+			productReference = 736B44332D1AB138005B5C03 /* swiggy_ui_cloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		736B44112D1AB136005B5C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					736B44182D1AB136005B5C03 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					736B44282D1AB138005B5C03 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 736B44182D1AB136005B5C03;
+					};
+					736B44322D1AB138005B5C03 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 736B44182D1AB136005B5C03;
+					};
+				};
+			};
+			buildConfigurationList = 736B44142D1AB136005B5C03 /* Build configuration list for PBXProject "swiggy_ui_clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 736B44102D1AB136005B5C03;
+			productRefGroup = 736B441A2D1AB136005B5C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				736B44182D1AB136005B5C03 /* swiggy_ui_clone */,
+				736B44282D1AB138005B5C03 /* swiggy_ui_cloneTests */,
+				736B44322D1AB138005B5C03 /* swiggy_ui_cloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		736B44172D1AB136005B5C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736B44242D1AB137005B5C03 /* Preview Assets.xcassets in Resources */,
+				736B44212D1AB137005B5C03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736B44272D1AB138005B5C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736B44312D1AB138005B5C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		736B44152D1AB136005B5C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736B44762D1BCCA1005B5C03 /* BottomRoundedShape.swift in Sources */,
+				736B44702D1BBDF3005B5C03 /* QuickPicksView.swift in Sources */,
+				736B444A2D1B121F005B5C03 /* FoodItemsGrid.swift in Sources */,
+				736B441F2D1AB136005B5C03 /* HomePageView.swift in Sources */,
+				736B44532D1B1C58005B5C03 /* TopRestaurantsSection.swift in Sources */,
+				736B44512D1B1B0C005B5C03 /* RestaurantModel.swift in Sources */,
+				736B441D2D1AB136005B5C03 /* swiggy_ui_cloneApp.swift in Sources */,
+				736B44592D1B1EED005B5C03 /* TopRestaurantView.swift in Sources */,
+				736B44552D1B1CB9005B5C03 /* TopRestaurantsList.swift in Sources */,
+				736B44572D1B1D2A005B5C03 /* NetworkImage.swift in Sources */,
+				736B44652D1B3340005B5C03 /* FilterChipsView.swift in Sources */,
+				736B445B2D1B2602005B5C03 /* BannersListView.swift in Sources */,
+				736B44692D1B50C5005B5C03 /* RestaurantDetailsView.swift in Sources */,
+				736B44482D1B0B33005B5C03 /* SearchBar.swift in Sources */,
+				736B44632D1B2F75005B5C03 /* ExploreRestaurantView.swift in Sources */,
+				736B444E2D1B1652005B5C03 /* FoodItemsSection.swift in Sources */,
+				736B444C2D1B153B005B5C03 /* AppConstants.swift in Sources */,
+				736B446C2D1BA187005B5C03 /* HexColor.swift in Sources */,
+				736B446E2D1BB003005B5C03 /* HomeHeaderView.swift in Sources */,
+				736B44612D1B2F37005B5C03 /* ExploreRestaurantsList.swift in Sources */,
+				736B445F2D1B2EBC005B5C03 /* ExploreRestaurantsSection.swift in Sources */,
+				736B44672D1B43AE005B5C03 /* AppBarView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736B44252D1AB138005B5C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736B442E2D1AB138005B5C03 /* swiggy_ui_cloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736B442F2D1AB138005B5C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736B443A2D1AB138005B5C03 /* swiggy_ui_cloneUITestsLaunchTests.swift in Sources */,
+				736B44382D1AB138005B5C03 /* swiggy_ui_cloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		736B442B2D1AB138005B5C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736B44182D1AB136005B5C03 /* swiggy_ui_clone */;
+			targetProxy = 736B442A2D1AB138005B5C03 /* PBXContainerItemProxy */;
+		};
+		736B44352D1AB138005B5C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 736B44182D1AB136005B5C03 /* swiggy_ui_clone */;
+			targetProxy = 736B44342D1AB138005B5C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		736B443B2D1AB138005B5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		736B443C2D1AB138005B5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		736B443E2D1AB138005B5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiggy_ui_clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujith.swiggy-ui-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		736B443F2D1AB138005B5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiggy_ui_clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujith.swiggy-ui-clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		736B44412D1AB138005B5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujith.swiggy-ui-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiggy_ui_clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiggy_ui_clone";
+			};
+			name = Debug;
+		};
+		736B44422D1AB138005B5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujith.swiggy-ui-cloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swiggy_ui_clone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/swiggy_ui_clone";
+			};
+			name = Release;
+		};
+		736B44442D1AB138005B5C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujith.swiggy-ui-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swiggy_ui_clone;
+			};
+			name = Debug;
+		};
+		736B44452D1AB138005B5C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sujith.swiggy-ui-cloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = swiggy_ui_clone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		736B44142D1AB136005B5C03 /* Build configuration list for PBXProject "swiggy_ui_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736B443B2D1AB138005B5C03 /* Debug */,
+				736B443C2D1AB138005B5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736B443D2D1AB138005B5C03 /* Build configuration list for PBXNativeTarget "swiggy_ui_clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736B443E2D1AB138005B5C03 /* Debug */,
+				736B443F2D1AB138005B5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736B44402D1AB138005B5C03 /* Build configuration list for PBXNativeTarget "swiggy_ui_cloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736B44412D1AB138005B5C03 /* Debug */,
+				736B44422D1AB138005B5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		736B44432D1AB138005B5C03 /* Build configuration list for PBXNativeTarget "swiggy_ui_cloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				736B44442D1AB138005B5C03 /* Debug */,
+				736B44452D1AB138005B5C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 736B44112D1AB136005B5C03 /* Project object */;
+}
