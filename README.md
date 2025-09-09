@@ -2,6 +2,17 @@
 
 This is a native iOS app that mimics the Swiggy food ordering page with smooth vertical and horizontal scrolling, a sticky header, and interactive navigation. It is built using **UIKit/SwiftUI** and is optimized for performance and user experience.
 
+## 📂 Screenshots
+
+|Home Page| Sticky Search | Pull-to-Refresh|
+|---|---|---|
+|![Food Page Screenshot](./assets/homePage.png)|![Food Page Screenshot](./assets/stickySearch.png)|![Food Page Screenshot](./assets/pullToRefresh.png)|
+
+|Restaurant Details| Sticky Header | Tabbed Widgets |
+|---|---|---|
+|![Food Page Screenshot](./assets/restaurantDetailsPage.png)|![Food Page Screenshot](./assets/stickyHeader.png)|![Food Page Screenshot](./assets/tabbedWidgets.png)|
+
+
 
 ## 📖 Features
 
@@ -51,19 +62,6 @@ This is a native iOS app that mimics the Swiggy food ordering page with smooth v
 
 ### ✅ Assumptions
 * Mock or hardcoded data is used; no real-time API integration.
-
-
-
-## 📂 Screenshots
-
-|Home Page| Sticky Search | Pull-to-Refresh|
-|---|---|---|
-|![Food Page Screenshot](./assets/homePage.png)|![Food Page Screenshot](./assets/stickySearch.png)|![Food Page Screenshot](./assets/pullToRefresh.png)|
-
-|Restaurant Details| Sticky Header | Tabbed Widgets |
-|---|---|---|
-|![Food Page Screenshot](./assets/restaurantDetailsPage.png)|![Food Page Screenshot](./assets/stickyHeader.png)|![Food Page Screenshot](./assets/tabbedWidgets.png)|
-
 
 
 
